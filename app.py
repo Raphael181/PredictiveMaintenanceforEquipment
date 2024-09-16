@@ -1,3 +1,5 @@
+subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib", "matplotlib"])
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -6,9 +8,6 @@ import numpy as np
 import os
 import requests
 import subprocess
-
-#Install joblib
-subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib", "matplotlib"])
 import joblib
 
 #URL to the model file on Github
