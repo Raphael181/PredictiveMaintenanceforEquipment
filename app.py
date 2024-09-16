@@ -1,3 +1,6 @@
+import subprocess
+import sys
+
 subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib", "matplotlib"])
 
 import streamlit as st
@@ -7,7 +10,6 @@ import plotly.express as px
 import numpy as np
 import os
 import requests
-import subprocess
 import joblib
 
 #URL to the model file on Github
