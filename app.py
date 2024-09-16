@@ -1,10 +1,15 @@
 import streamlit as st
 import pandas as pd
-import joblib
 import matplotlib.pyplot as plt
 import plotly.express as px
 import numpy as np
 import os
+import requests
+import subprocess
+
+#Install joblib
+subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
+import joblib
 
 #URL to the model file on Github
 model_url = 'predictive_maintenance_model.pkl'
