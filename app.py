@@ -4,6 +4,19 @@ import joblib
 import matplotlib.pyplot as plt
 import plotly.express as px
 import numpy as np
+import os
+
+#URL to the model file on Github
+model_url = https://github.com/Raphael181/PredictiveMaintenanceforEquipment/blob/main/predictive_maintenance_model.pkl
+
+# Download the model file if it doesn't exist locally
+model_filename = 'predictive_maintenance_model.pkl'
+if not os.path.exists(model_filename):
+    st.write('Downloading model...')
+    response = requests.get(model_url)
+    with open(model_filename, 'wb') as f:
+        f.write(response.content)
+    st.write('Model downloaded successfully.')
 
 # Load the trained model
 model = joblib.load('predictive_maintenance_model.pkl')
