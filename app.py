@@ -8,7 +8,7 @@ import requests
 import subprocess
 
 #Install joblib
-subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
+subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib", "matplotlib"])
 import joblib
 
 #URL to the model file on Github
