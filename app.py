@@ -7,7 +7,7 @@ import numpy as np
 import os
 
 #URL to the model file on Github
-model_url = https://github.com/Raphael181/PredictiveMaintenanceforEquipment/blob/main/predictive_maintenance_model.pkl
+model_url = 'https://github.com/Raphael181/PredictiveMaintenanceforEquipment/blob/main/predictive_maintenance_model.pkl'
 
 # Download the model file if it doesn't exist locally
 model_filename = 'predictive_maintenance_model.pkl'
