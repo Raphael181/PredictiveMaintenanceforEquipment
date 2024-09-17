@@ -4,7 +4,8 @@ A web application for predictive maintenance of equipment, built using Streamlit
 
 **Features**
 **User-friendly Interface**: Intuitive web interface built using Streamlit.
-**Machine Learning Model**: Utilizes a pre-trained **RandomForestClassifier** model to predict equipment failure.
+**Machine Learning Model**: Utilizes a pre-trained 
+**RandomForestClassifier** model to predict equipment failure.
 **Data Visualization**: Displays predictions and relevant data insights.
 **Real-time Prediction**s: Users can input data and get immediate predictions regarding the maintenance needs of equipment.
 ![image](https://github.com/user-attachments/assets/5efeb314-e044-4294-a147-472a21e54141)
